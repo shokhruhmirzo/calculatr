@@ -25,3 +25,9 @@ elForm.addEventListener('submit', function (bt) {
 })
 
 
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+    alert("Kodni korish taqiqlanadi ❗️❗️❗️");
+});
+
+
