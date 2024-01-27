@@ -5,8 +5,8 @@ var elForm = document.querySelector('form');
 
 elForm.addEventListener('submit', function (bt) {
     bt.preventDefault()
-    var inpOne = document.querySelector('.inp_one').value
-    var inpTwo = document.querySelector('.inp_two').value
+    var inpOne = document.querySelector('.inp_one').value * 1
+    var inpTwo = document.querySelector('.inp_two').value * 1
     var result;
 
     if (elSelect.value == '+') {
